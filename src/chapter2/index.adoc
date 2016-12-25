@@ -1,0 +1,113 @@
+[[mechanical_hardware]]
+
+==  第２章　eVのメカハードウェア
+
+=== 外観
+
+[ch2_eV3_whole]
+.eV(2016年かわロボ仕様)外観図
+image::./eV_basic_design/eV3_v36.png[align="center"]
+
+<<kawarobo_2013_1>>や<<kawarobo_2013_2>>に挙げた機体に比べてeVは見た目が大きく異なっているかと思います。
+これはeVを構成する自作部品がすべて３Ｄプリンタにより制作されていることによります。
+実はでしぷろんぷとでは２０１２年より３Ｄプリンタ製作の機体を継続的に製作しています。
+次の項で簡単に３Ｄプリンタ製作機体のこれまでについて簡単に触れた後eVのメカを解説していきます。
+
+<<<
+
+=== 系譜
+
+2012年::
+神風　汎用決戦型２式. アーム部のギアボックスとパイロット(Tuxペンギン)を３Ｄプリンタで製作
+
+[ch2_kamikaze]
+.神風　汎用決戦型２式 footnote:[http://www.kawasaki-net.ne.jp/robo_old/robo12/battle/s248.jpg]
+image::./kawarobo/2012/s248.jpg[width="200", align="center"]
+
+2013年::
+いつヤルか？ＫＹＯでしょ！. ２０１２年の機体を３Ｄプリンタ向けに再設計
+
+[ch2_kyo_desho]
+.いつヤルか？ＫＹＯでしょ！. footnote:[http://www.kawasaki-net.ne.jp/robo_old/robo13/uploads/2013/09/228.jpg]
+image::./kawarobo/2013/s228.jpg[width="200", align="center"]
+
+2014年::
+ardbeg. 初めて３Ｄプリンタでの製作を前提としてフルスクラッチ設計<<4>>．脚機構の一部は切削加工のパーツを採用．
+
+[ch2_ardbeg]
+.ardbeg footnote:[http://www.kawasaki-net.ne.jp/robo_old/robo14/uploads/2014/09/255.jpg]
+image::./kawarobo/2014/s255.jpg[width="200", align="center"]
+
+2015年::
+製作機体なし
+
+2016年::
+eV. 既成品以外のパーツをすべて３Ｄプリンタで製作.
+
+[ch2_ardbeg]
+.ardbeg footnote:[http://www.kawasaki-net.ne.jp/robo/wp-content/uploads/2016/09/s229.jpg]
+image::./kawarobo/2016/s229.jpg[width="200", align="center"]
+
+
+[cols="2*", options="header", text-align="center"] 
+.AAA
+|===
+|Name of Column 1
+|Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+=== 特徴
+
+eVはこれ以外にも従来のかわロボの機体に比べ異なる特徴を多くもちます。　
+
+[ev_charactaristics]
+====
+. ３Ｄプリンタの全面的採用
+. サーボモータの全面的採用
+. 自由度の多さ
+. 必要最低限な既成品
+. 工具レスで分解できる構造
+====
+
+==== ３Ｄプリンタの全面的採用
+==== サーボモータの全面的採用
+==== 自由度の多さ
+==== 必要最低限な既成品
+==== 工具レスで分解できる構造
+
+. 
+ . 既成品以外のパーツはすべて３Ｄプリンタで製作
+ . 高価な工作機械を利用する手段を持たない人でも製作できる
+ . 電気・ソフトウェアシステムの開発にもより時間を割けることができる
+ . ３Ｄプリンタすら持たない人でも３Ｄプリントサービスを利用することで機体を製作できる
+
+
+
+=== 系譜
+
+前項に示したとおりeVは既成品以外のパーツをすべて３Ｄプリンタで製作しています。
+これは
+
+[cols="2*", options="header"] 
+|===
+|Name of Column 1
+|Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+=== モジュール化
+
+==== 大会の趣旨
+
+

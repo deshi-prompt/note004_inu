@@ -1,0 +1,66 @@
+= 猫もどきロボット
+:sectnums!:
+:docinfo1:
+:toc2:
+// :imagesdir: images
+// :title-logo-image: image:cover.jpg[Front Cover, 1050,1600]
+// //:front-cover-image: image:kawarobo.png[Front Cover,1050,1600]
+// :author: takarakasai
+// :email: takara.kasai@gmail.com
+// :homepage: http://wasaob.net
+// :keywords: Robotics, Kawarobo
+// :revnumber: {bookversion}
+// :revdate: {docdate}
+// :imagesdir: images
+// //:source: https://github.com/wasaob/*.git
+// //:doctype: book NG
+// :pdf-page-size: B5
+// :lang: ja
+// :icons: font
+
+:author: kubosho_
+:keywords: Git, Steins;Gate
+:revnumber: {bookversion}
+:revdate: {docdate}
+:source: https://github.com/o2project/steins-git
+:imagesdir: images
+:front-cover-image: image:illustration/cover.jpg[Steins;Git,1050,1600]
+:lang: ja
+:icons: font
+
+ifeval::["{backend}" == "html5"]
++++
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+<img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+</a><br />この 作品 は <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンスの下に提供されています。</a>
++++
+else::[]
+endif::[]
+
+<<<
+
+:sectnums!:
+
+include::src/intro/index.adoc[]
+
+<<<
+
+// start numbering
+:sectnums:
+
+include::src/chapter1/index.adoc[]
+
+<<<
+
+include::src/chapter2/index.adoc[]
+
+<<<
+
+include::src/chapter3/index.adoc[]
+
+// stop numbering for afterword
+
+:sectnums!:
+
+include::src/afterword/index.adoc[]
+

@@ -1,0 +1,44 @@
+
+== ライセンス
+
+この作品のコンテンツは次に示す複数のライセンスの下に提供されます
+
+* ページ右上に記載されたロゴ
+** (C) 2016 @takarakasai All Rights Reserved.
+
+image::logo.svg[takarakasaiのロゴ, 88, align="center"]
+
+
+* 表紙
+** (C) 2016 でしぷろんぷと All Rights Reserved.
+
+[IMPORTANT]
+=====
+//icon:github[2x, link=https://github.com/o2project/steins-git] リポジトリは https://github.com/o2project/steins-git[o2project/steins-git] です。
+ここにきょんさまの絵が入ります
+=====
+
+
+* その他の本文及びそれに関連する独自に作成した図
+** クリエイティブ・コモンズ 表示 - 非営利 - 継承 4.0 国際 ライセンスの下に提供されています
+** クレジットは *(C) でしぷろんぷと* になります
+
+image::commons/88x31.png[CC BY NC SA, 88, 31, align="center"]
+
+<<<
+
+== 引用
+
+[bibliography]
+- [[[1]]] かわさきロボット競技大会公式サイト. 'かわロボについて'.
+  http://www.kawasaki-net.ne.jp/robo/about_kawarobo.html. 2016.
+- [[[2]]] かわさきロボット競技大会公式サイト. 'バトルロボット部門　競技規則'.
+  http://www.kawasaki-net.ne.jp/robo/23th/battle/rule.html. 2016.
+- [[[3]]] 日本工業規格 JIS B 0134：2015 (ISO 8373：2012)
+  'ロボット及びロボティックデバイス−用語'. 2015.
+- [[[4]]] でしぷろんぷと @kyo46 . 'まだきめてない.'.
+  コミックマーケットC89にて頒布. 2015.
+  
+'
+  
+
