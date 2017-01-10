@@ -3,6 +3,10 @@
 イヌもどきかわさきロボット
 副題 : 開リンク機構による多様性の提案
 
+# CI state
+
+[![Build Status](https://travis-ci.org/deshi-prompt/note004_inu.svg?branch=master)](https://travis-ci.org/deshi-prompt/note004_inu)
+
 # creating pdf
 
 ## requirement
