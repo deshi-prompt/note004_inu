@@ -77,6 +77,9 @@ if [ $eno -eq 0 ]; then
         -param title.font.family GenShinGothic-P-Heavy \
         -param alignment left
 
+    ls ${TRAVIS_BUILD_DIR}
+    ls -la ${TRAVIS_BUILD_DIR}/build/
+
     eno=$?
     echo error w/ $eno
     exit $eno

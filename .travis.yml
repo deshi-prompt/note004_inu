@@ -11,7 +11,7 @@ script: ./travis_make.sh
 deploy:
     provider: releases
     api_key: cbe1ff4a8fbcc5e45975fcfde464052fd17c15f6
-    file: ./build/index.pdf
+    file: ${TRAVIS_BUILD_DIR}/build/index.pdf
     skip_cleanup: true
     on:
         tags: true
