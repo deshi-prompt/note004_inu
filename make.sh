@@ -62,7 +62,7 @@ if [ $eno -eq 0 ]; then
         -param title.font.family GenShinGothic-P-Heavy \
         -param alignment left
 
-    gnome-open $output
+    #gnome-open $output
 else
     echo error w/ $eno
 fi
