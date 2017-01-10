@@ -38,14 +38,25 @@ if [ $eno -eq 0 ]; then
 
     git clone -b v1.0.0_C91 https://github.com/deshi-prompt/adoc_styles.git styles
 
+    mkdir -p ~/.fonts
+
+    echo "aozoramincho ------------"
     wget http://blueskis.wktk.so/AozoraMincho/archive/v0.1/aozoramincho-readme-ttf.zip
     unzip aozoramincho-readme-ttf.zip
+    ls -la aozoramincho-readme-ttf/
+    cp aozoramincho-readme-ttf/* ~/.fonts/
 
+    echo "genshin gothic ----------"
     wget https://osdn.jp/downloads/users/8/8637/genshingothic-20150607.zip
     mkdir genshin
     cd genshin
     unzip ../genshingothic-20150607.zip
     cd ..
+    cp genshin/* ~/.fonts/
+    ls -la genshin/
+
+    fc-cache -fv
+    fc-list
 
     #fopub $xml \
     #    -param title.font.family VL-PGothic-Regular \
@@ -67,9 +78,10 @@ if [ $eno -eq 0 ]; then
     #    -param body.font.family AozoraMinchoRegular \
     #    -param sans.font.family AozoraMinchoRegular \
     #    -param body.bold.font.family GenShinGothic-P-Heavy \
+    #    -cache aozoramincho-readme-ttf \
+    #    -cache genshin \
     ./asciidoctor-fopub/fopub -t styles $xml \
-        -cache aozoramincho-readme-ttf \
-        -cache genshin \
+        -cache ~/.fonts \
         -param body.font.family AozoraMinchoRegular \
         -param dingbat.font.family GenShinGothic-P-Normal \
         -param monospace.font.family GenShinGothic-P-Normal \
