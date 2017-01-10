@@ -1,11 +1,14 @@
 # deshi-pro note No004
 
-イヌもどきロボット
+イヌもどきかわさきロボット
+副題 : 開リンク機構による多様性の提案
 
 # creating pdf
 
 ```bash
+> git clone git@github.com:deshi-prompt/note004_inu.git
 > cd note004_inu
+> git clone -b v1.0.0_C91 git@github.com:deshi-prompt/adoc_styles.git styles
 > ./make.sh
 > evince build/index.pdf
 ```
