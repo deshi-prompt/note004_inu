@@ -5,6 +5,17 @@
 
 # creating pdf
 
+## requirement
+
+- tool
+ - see [here](https://github.com/deshi-prompt/adoc_styles)
+
+- フォント
+ - あおぞら明朝（本文） http://blueskis.wktk.so/AozoraMincho/
+ - 源真ゴシック(見出し、本文太字など） http://jikasei.me/font/genshin/
+
+## procedure
+
 ```bash
 > git clone git@github.com:deshi-prompt/note004_inu.git
 > cd note004_inu
