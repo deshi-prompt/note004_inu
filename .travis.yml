@@ -1,0 +1,8 @@
+language: java
+
+before_install:
+    - sudo apt-get install asciidoctor
+    - git clone https://github.com/asciidoctor/asciidoctor-fopub
+
+script: ./travis_make.sh
+      
