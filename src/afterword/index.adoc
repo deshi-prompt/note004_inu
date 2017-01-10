@@ -12,11 +12,11 @@ image::logo.svg[takarakasaiのロゴ, 88, align="center"]
 * 表紙
 ** (C) 2016 でしぷろんぷと All Rights Reserved.
 
-[IMPORTANT]
-=====
+//[IMPORTANT]
+//=====
 //icon:github[2x, link=https://github.com/o2project/steins-git] リポジトリは https://github.com/o2project/steins-git[o2project/steins-git] です。
-ここにきょんさまの絵が入ります
-=====
+//ここにきょんさまの絵が入ります
+//=====
 
 
 * その他の本文及びそれに関連する独自に作成した図
@@ -36,9 +36,67 @@ image::commons/88x31.png[CC BY NC SA, 88, 31, align="center"]
   http://www.kawasaki-net.ne.jp/robo/23th/battle/rule.html. 2016.
 - [[[3]]] 日本工業規格 JIS B 0134：2015 (ISO 8373：2012)
   'ロボット及びロボティックデバイス−用語'. 2015.
-- [[[4]]] でしぷろんぷと @kyo46 . 'まだきめてない.'.
-  コミックマーケットC89にて頒布. 2015.
-  
-'
-  
+- [[[4]]] でしぷろんぷと @kyo46 . '３Ｄプリンタでロボット開発'.
+  コミックマーケットC91にて頒布. 2016.
+- [[[5]]] Sugihara, Tomomichi. 'Solvability-Unconcerned Inverse Kinematics by the Levenberg–Marquardt Method.'.
+  IEEE Transactions on Robotics Vol. 27, No. 5 (2011): 984–91. doi:10.1109/tro.2011.2148230.
+- [[[6]]] 杉原知道. '解説記事　逆運動学の数値解法'.
+　日本ロボット学会誌　Vol.34　No.3, pp.167-173, 2016.
+
+ifeval::["{backend}" != "html5"]
+== 使用しているフォント
+
+あおぞら明朝（本文） http://blueskis.wktk.so/AozoraMincho/
+
+源真ゴシック(見出し、本文太字など） http://jikasei.me/font/genshin/
+endif::[]
+
+<<<
+
+//[[author]]
+
+== あとがき
+
+私は大学入学した年から１０年以上参加し続けていますが、それだけ私にとってかわロボはそれだけ魅力的な大会です。
+メカに力を入れてたり、制御的工夫が際立っていたり、ソフトウェア含むシステムとしての完成度が高かったりと、
+多様性あふれる場にかわさきロボット競技大会が発展して行くという夢を今回は吐露してみました。
+ご意見ご感想などいただけると嬉しいです。
+
+さて肝心の本書の内容ですが、本当は電気ハーウェアやソフトウェアさらにロボットの全身制御に至るまで言及するような薄い本にするつもりでした。
+しかしながら圧倒的工数不足により今回はeVのメカハートウェアを解説するに止まることになりました。
+可能な限り今後も執筆は続けていくつもりなのでお付き合いいただけましたら幸いです。
+
+また本書を作成にあたって
+大会当日のサポートや表紙の作成など本誌執筆のサポートをしていただいた@kyo46さんと
+ロゴ作成を快く引き受けてくれた弟には大変助けられました。どうもありがとうございました。
+
+それでは イヌモドキかわさきロボット 副題;開リンク機構による多様性の提案 を最後までお読みいただきまことにありがとうございました。
+
+[eV_prise]
+.歓喜するeV
+image::eV/prise.png[width="300", align="center"]
+
+<<<
+
+== 奥付
+
+=== 発行・作者
+
+発行:: でし・ぷろんぷと
+執筆:: @takarakasai footnote:[https://github.com/takarakasai]
+フォロー:: @kyo46 
+印刷:: 株式会社ウエーブ footnote:[https://www.wave-inc.co.jp/]
+発行日:: 2016 年 12 月 29 日 第 1 版 発行
+
+=== Web
+
+http://khoya.net/
+
+http://deshi-prompt.github.io/
+
+=== Mail
+
+====
+ada.robo1@gmail.com
+====
 
