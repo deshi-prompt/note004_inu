@@ -1,7 +1,9 @@
 language: java
 
 before_install:
-    - sudo apt-get install asciidoctor
+    - rvm install 2.3.1
+    - gem install asciidoctor
+    - asciidoctor --version
     - git clone https://github.com/asciidoctor/asciidoctor-fopub
 
 script: ./travis_make.sh
