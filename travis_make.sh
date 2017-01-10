@@ -36,7 +36,7 @@ if [ $eno -eq 0 ]; then
     output=`echo ${root} | sed -e "s/.adoc$/.pdf/g"`
     xml=`echo ${root} | sed -e "s/.adoc$/.xml/g"`
 
-    git clone -b v1.0.0_C91 git@github.com:deshi-prompt/adoc_styles.git styles
+    git clone -b v1.0.0_C91 https://github.com/deshi-prompt/adoc_styles.git styles
 
     wget http://blueskis.wktk.so/AozoraMincho/archive/v0.1/aozoramincho-readme-ttf.zip
     unzip aozoramincho-readme-ttf.zip
