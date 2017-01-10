@@ -7,4 +7,13 @@ before_install:
     - git clone https://github.com/asciidoctor/asciidoctor-fopub
 
 script: ./travis_make.sh
+
+deploy:
+    provider: releases
+    api_key: cbe1ff4a8fbcc5e45975fcfde464052fd17c15f6
+    file: ./build/index.pdf
+    skip_cleanup: true
+    on:
+        tags: true
+
       
