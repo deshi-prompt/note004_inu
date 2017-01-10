@@ -68,8 +68,8 @@ if [ $eno -eq 0 ]; then
     #    -param sans.font.family AozoraMinchoRegular \
     #    -param body.bold.font.family GenShinGothic-P-Heavy \
     ./asciidoctor-fopub/fopub -t styles $xml \
-        -cache aozoramincho-readme-ttf.zip \
-        -cache genshingothic-20150607 \
+        -cache aozoramincho-readme-ttf \
+        -cache genshin \
         -param body.font.family AozoraMinchoRegular \
         -param dingbat.font.family GenShinGothic-P-Normal \
         -param monospace.font.family GenShinGothic-P-Normal \
