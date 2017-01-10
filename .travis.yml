@@ -10,5 +10,9 @@ deploy:
   api_key:
     secure: IIRd8H1S8QvNPS4pv50Ase8C7zt0etvEqAZ7OKUZxW4GTL/WS8novQASg033apyX/T8xxkLv48u2T5ZkIAIGbOYInPfcGIO6tan2IF8yKuCvaV3vtcs+LATnFVww4EdKA0+9GEXwMFQPBBNoBsHb+zPejD51VcObwSwi3gPEh8IovnXAmfJYGVPrqSgivYlYAh+AM/5GS3yMVz/BkYhQEqV/MnQRNNoPXRCtI++UWDUfACJFm+P0+hxiwDRaZL9HdPA3V1FFZDFGZ6gVD5NEQezoShpSo3L2U3gR/1G0G4JOxce1wOsS74L3cp+E3Qqcbx3qUIZQy5zObeklRy79RULtnQ+RZSXclyXWfu6NQ8PeElo1uha36PPmaLhHnTA41ARHcmbD95ppnNfHM5TwoxprfU77opzOhe2sMhhpovieHlcaqxXJsfuYuVug2HZasPMgVZQk+MEPLvjx8Z+9ReyuGccS2Gs3LAfql5w+7HgOZVYsK4IyfL9aR6JTSe4pSF3tUv2fui+UrwHnAcwpRyS/+mUKOLsgufuZhDYpNugltDu8a5EXiNlftBJpW0WhOrMJwV0bu8oZMVTX44EZFzIT5Lavhya/7EES3IKHvxRmnZrMHhQBgORBy8FraPP13LT/5scDOm7xukatWpZBoDefS6rFebJtt8B+SR0He/w=
   file: "./build/index.pdf"
+  skip_cleanup: true
   on:
     repo: deshi-prompt/note004_inu
+    all_branches: true
+    tags: true
+
