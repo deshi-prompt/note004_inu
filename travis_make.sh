@@ -44,7 +44,7 @@ if [ $eno -eq 0 ]; then
     wget http://blueskis.wktk.so/AozoraMincho/archive/v0.1/aozoramincho-readme-ttf.zip
     unzip aozoramincho-readme-ttf.zip
     ls -la aozoramincho-readme-ttf/
-    cp aozoramincho-readme-ttf/* ~/.fonts/
+    cp -rf aozoramincho-readme-ttf/* ~/.fonts/
 
     echo "genshin gothic ----------"
     wget https://osdn.jp/downloads/users/8/8637/genshingothic-20150607.zip
@@ -52,7 +52,7 @@ if [ $eno -eq 0 ]; then
     cd genshin
     unzip ../genshingothic-20150607.zip
     cd ..
-    cp genshin/* ~/.fonts/
+    cp -rf genshin/* ~/.fonts/
     ls -la genshin/
 
     fc-cache -fv
